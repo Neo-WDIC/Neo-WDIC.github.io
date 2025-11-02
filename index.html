@@ -6,19 +6,57 @@
   <title>Mi primera página</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #fafafa;
-      color: #333;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #00b4db, #0083b0);
+      color: white;
       text-align: center;
-      padding-top: 100px;
+      padding: 80px;
+      margin: 0;
     }
+
     h1 {
-      color: #0078d7;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 15px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .boton {
+      background-color: #ffffff;
+      color: #0083b0;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .boton:hover {
+      background-color: #f4f4f4;
+      transform: scale(1.05);
     }
   </style>
 </head>
+
 <body>
-  <h1>Hola mundo 🌎</h1>
-  <p>Esta es mi primera página web en GitHub Pages</p>
+  <h1>Bienvenido a mi web 🌐</h1>
+  <p>Explora, aprende y crea tus propios proyectos.</p>
+
+  <img src="nekoarc.jpg" alt="imagen de ejemplo">
+
+  <br>
+  <button class="boton" onclick="alert('¡Gracias por visitar! 😄')">Haz clic aquí</button>
 </body>
 </html>
+
